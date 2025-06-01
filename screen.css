@@ -1,8 +1,8 @@
 body {
-    background: ##fff;
+    background: #fff;
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
-    margin: 0 auto;
+    margin: 0;
 }
 
 main {
@@ -10,6 +10,36 @@ main {
     width: 800px;
 }
 
+.masthead {
+    background-image: url("images/federica-galli-aiqKc07b5PA-unsplash\ 1-4.png");
+    background-position: bottom;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.details {
+    display: flex;
+    gap: 25px;
+}
+
+.details section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #eee;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
 img {
     width: 100%;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.4em;
 }
